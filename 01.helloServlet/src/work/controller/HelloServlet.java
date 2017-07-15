@@ -18,6 +18,7 @@ public class HelloServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println();
 		// 응답을 위한 MINE 객체 생성
 		response.setContentType("text/html;charset=euc-kr");
 		// text/html 응답하기 위한 출력 스트림 생성
